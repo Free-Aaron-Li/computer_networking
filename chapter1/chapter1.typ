@@ -57,4 +57,12 @@
 
 *因特网标准*（Internet standard）由因特网工程任务组（Internet Engineering Task Force，IETF）研发。IETF的标准文档称为*请求评论*（Request For Comment，RFC）。RFC文档往往技术性很强并且相当详细。
 
+=== 服务描述
+
+从#text(font: ("Noto Sans CJK SC"),size: 11pt)[应用程序程序提供服务的基础设施]的角度描述因特网，对于因特网应用（运行在端系统之上）来说，由于它们需要涉及多个相互交换数据的端系统，所以被称为*分布式应用*（distributed application）。
+
+那么产生描述因特网的另一种方式：用于应用的平台。不同端系统上的应用该如何进行数据交换？，对此的解决方案是：与因特网相连的端系统提供了一套*套接字接口*（socket interface），该接口规定了一系列发送程序必须遵循的规则集合。
+
+同样，因特网上也存在一个套接字接口用于向接收数据的程序交付数据。
+
 
